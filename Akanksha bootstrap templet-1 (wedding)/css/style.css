@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+      
+
+body{
+    overflow-x: hidden;
+}
+.bg{
+    background-image: url("../images/hero_1.jpg");
+    height: 660px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    top: 35%;
+    margin-right: 20%;
+    width: 500px;
+    color: #111;
+    background: transparent;
+    
+}
+.container h1{
+     color: rgb(237, 194, 24);
+     font-weight: 700;
+}
+/* background section over */
+.gallery{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+
+}
+.gallery h1{
+    padding-bottom: 30px;
+} 
+.gallery p{
+    position: relative;
+    top: 15px;
+    color: rgb(237, 194, 24);
+}
+.mesorny{
+    columns: 4;
+    column-gap: 16px;
+   
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+.grid-images{
+    display: inline-block;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+
+@media(max-width:1200px){
+  .mesorny{
+    columns: 3;
+  
+}
+}
+@media(max-width:992px){
+    .mesorny{
+      columns: 2;
+      
+    }
+  
+  
+}
